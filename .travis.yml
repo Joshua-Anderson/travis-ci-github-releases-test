@@ -5,9 +5,7 @@ deploy:
   provider: releases
   api-key:
     - secure: "SXAaqgpBperXFZsq3YlUuMuUQj0teBC06QRVEIxsIe/RltvweqmuiO2YwSoqGQc7eSFoLRGehWqX7k1dKzEnTgDwbzSIzUBLABF7mkFUlLyQX6GWgaQ7MtYkjcJ9Bstd9jDSq9R0+3VE1/EPxw4p2bc7j5QaovziE1ZqlRO5vAE="
-  file: 
-    - README.md
-    - Second.html
+  file: README.md
   on:
     tags: true
     all_branches: true
